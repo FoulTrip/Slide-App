@@ -1,0 +1,36 @@
+.titleTable {
+    font-family: 'Nunito', sans-serif;
+}
+
+.subCard {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.imgSubBox {
+    display: grid;
+    place-content: center;
+}
+
+.explain {
+    text-align: start;
+    font-family: 'Nunito', sans-serif;
+}
+
+.iconsSubImg {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 800px) {
+    .subCard {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .iconsSubImg {
+        width: 100%;
+        height: auto;
+    }
+}

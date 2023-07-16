@@ -1,0 +1,27 @@
+.PrincipalModel {
+    height: auto;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.subPrincipalModel {
+    padding: 2em;
+    background: aliceblue;
+    border-radius: 1em;
+}
+
+.controlls {
+    display: grid;
+    place-content: center;
+}
+
+.subControlls {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 1em;
+}

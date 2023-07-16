@@ -1,0 +1,35 @@
+.principalBox {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Nunito', sans-serif;
+    gap: 20px;
+}
+
+.subBox01 {
+    flex-basis: 400px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.iconBox {
+    width: 50%;
+    height: auto;
+}
+
+.subBox02 {
+    flex-basis: 400px;
+    flex-grow: 1;
+    display: grid;
+    place-content: center;
+}
+
+.subBox02 h3 {
+    text-align: center;
+    margin: 0;
+}
+
+.subBox02 p {
+    text-align: center;
+}
