@@ -10,7 +10,7 @@ import Link from "next/link";
 import iconArrowLeftCirc from "@/assets/arrow-left-circle.svg";
 import iconArrowRightCirc from "@/assets/arrow-right-circle.svg";
 import iconRestart from "@/assets/iconRefresh.svg";
-import iconHome from "@/assets/iconHome.svg"
+import iconHome from "@/assets/iconHome.svg";
 import ThreeTable from "./components/ThreeTable";
 import FourTable from "./components/FourTable";
 import FiveTable from "./components/FiveTable";
@@ -20,12 +20,12 @@ function PageFirstPresentation() {
   const [index, setIndex] = useState(0);
 
   const table = [
-    <FirstTable />,
-    <SecondTable />,
-    <ThreeTable />,
-    <FourTable />,
-    <FiveTable />,
-    <SixTable />,
+    <FirstTable key="first" />,
+    <SecondTable key="second" />,
+    <ThreeTable key="three" />,
+    <FourTable key="four" />,
+    <FiveTable key="five" />,
+    <SixTable key="six" />,
   ];
 
   const handleNext = () => {
@@ -73,7 +73,9 @@ function PageFirstPresentation() {
             ""
           )}
 
-          <Link href="/"><Image src={iconHome} alt="iconHome" /></Link>
+          <Link href="/">
+            <Image src={iconHome} alt="iconHome" />
+          </Link>
         </div>
       </div>
     </>
