@@ -25,3 +25,7 @@
     padding: 10px;
     border-radius: 1em;
 }
+
+.iconControll:hover {
+    scale: 1.05;
+}

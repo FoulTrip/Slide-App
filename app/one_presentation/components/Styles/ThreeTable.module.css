@@ -2,6 +2,27 @@
     font-family: 'Nunito', sans-serif;
 }
 
+.groups {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.firstGroup {
+    flex-basis: 400px;
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.secondGroup {
+    flex-basis: 400px;
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .subCard {
     display: flex;
     flex-direction: row;

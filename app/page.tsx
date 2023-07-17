@@ -30,7 +30,7 @@ export default function Home() {
           </Link>
         </div>
 
-        <div className={styles.card}>
+        {/* <div className={styles.card}>
           <div className={styles.iconcard}>
             <Image
               className={styles.iconSubCard}
@@ -49,7 +49,7 @@ export default function Home() {
               />
             </div>
           </Link>
-        </div>
+        </div> */}
       </div>
     </>
   );

@@ -54,11 +54,12 @@ function PageFirstPresentation() {
               src={iconArrowLeftCirc}
               onClick={handlePrev}
               alt="arrowLeft"
+              className={styles.iconControll}
             />
           )}
 
           {index != 0 ? (
-            <Image src={iconRestart} onClick={handleRestart} alt="restart" />
+            <Image src={iconRestart} onClick={handleRestart} alt="restart" className={styles.iconControll} />
           ) : (
             ""
           )}
@@ -68,13 +69,14 @@ function PageFirstPresentation() {
               src={iconArrowRightCirc}
               onClick={handleNext}
               alt="arrowRight"
+              className={styles.iconControll}
             />
           ) : (
             ""
           )}
 
           <Link href="/">
-            <Image src={iconHome} alt="iconHome" />
+            <Image src={iconHome} className={styles.iconControll} alt="iconHome" />
           </Link>
         </div>
       </div>
