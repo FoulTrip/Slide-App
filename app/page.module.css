@@ -1,6 +1,77 @@
-.titleMain {
+.banner {
+  width: 90%;
+  margin-left: 5%;
+  display: grid;
+  place-content: center;
+  margin-bottom: 3em;
+}
+
+.subBannerOne {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Tajawal', sans-serif;
+}
+
+.imgBanner {
+  display: grid;
+  place-content: center;
+}
+
+.iconBanner {
+  width: 15vh;
+  height: auto;
+}
+
+.Title {
+  font-size: 25px;
+  margin: 0;
   text-align: center;
+  border-bottom: 1px solid;
+}
+
+.titlePart {
+  color: rgb(119, 144, 253);
+}
+
+.redes {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.linkRedes {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+
+.linkRedesRow:hover {
+  scale: 1.1;
+  background: #f4eeff;
+}
+
+.linkRedes:hover {
+  scale: 1.1;
+  background: #f4eeff;
+}
+
+.iconRed {
+  width: 80%;
+  height: auto;
+}
+
+.nameAuth {
+  font-size: 15px;
+  color: #252525;
   font-family: 'Nunito', sans-serif;
+  margin: 0;
+  display: grid;
+  place-content: center;
 }
 
 .BoxPresentation {
@@ -23,6 +94,10 @@
 }
 
 .card:hover {
+  background: #f4eeff;
+}
+
+.card:hover {
   scale: 1.01;
 }
 
@@ -32,7 +107,7 @@
 }
 
 .iconSubCard {
-  width: 5vh;
+  width: 4vh;
   height: auto;
 }
 
@@ -49,9 +124,6 @@
   border-radius: 1em;
 }
 
-.linkPresentation:hover {
-  background: #faf8f8;
-}
 
 .linkPresentation p {
   margin: 0;
