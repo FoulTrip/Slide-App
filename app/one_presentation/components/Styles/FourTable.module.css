@@ -31,7 +31,6 @@
 }
 
 .subBox_2 {
-    margin-top: 3em;
     display: flex;
     flex-wrap: wrap-reverse;
 }

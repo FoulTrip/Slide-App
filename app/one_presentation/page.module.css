@@ -1,25 +1,36 @@
+.boxPrincipal {
+    padding-top: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .PrincipalModel {
     height: auto;
     padding-top: 5em;
     padding-bottom: 5em;
     padding-left: 1em;
     padding-right: 1em;
+    /* margin-bottom: 3em; */
+    flex: 1;
 }
 
 .subPrincipalModel {
     padding: 2em;
-    background: aliceblue;
+    background-image: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+    background-color: var(--color-background);
     border-radius: 1em;
+    margin-bottom: 3vh;
 }
 
 .controlls {
     display: grid;
     place-content: center;
+    flex-basis: 100px;
 }
 
 .subControlls {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 20px;
     background-color: aliceblue;
     padding: 10px;

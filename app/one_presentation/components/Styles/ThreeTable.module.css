@@ -3,9 +3,29 @@
 }
 
 .groups {
+    display: grid;
+    place-content: center;
+    gap: 40px;
+}
+
+.subGroup {
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    justify-content: space-between;
+    gap: 30px;
+    /* padding-bottom: 3em; */
+}
+
+.nameGroup {
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+.nameCharacter {
+    font-size: 10px;
+    padding: 10px;
+    text-align: center;
 }
 
 .firstGroup {
@@ -42,6 +62,10 @@
 .iconsSubImg {
     width: 100%;
     height: auto;
+}
+
+.iconSubGroup:hover {
+    scale: 1.11;
 }
 
 @media screen and (max-width: 800px) {
