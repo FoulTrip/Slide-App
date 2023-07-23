@@ -1,19 +1,30 @@
 .titleTable {
     font-family: 'Nunito', sans-serif;
+    color:rgb(177, 174, 174);
 }
 
 .groups {
-    display: grid;
-    place-content: center;
-    gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 1em;
 }
 
 .subGroup {
+    flex-basis: 400px;
+    flex-grow: 1;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 30px;
     /* padding-bottom: 3em; */
+}
+
+.secondSubGroup {
+    flex-basis: 400px;
+    flex-grow: 1;
+    display: grid;
+    place-content: center;
 }
 
 .nameGroup {
@@ -23,9 +34,75 @@
 }
 
 .nameCharacter {
-    font-size: 10px;
+    width: 100%;
+    flex-grow: 1;
+    font-size: 20px;
     padding: 10px;
     text-align: center;
+    font-family: 'Nunito', sans-serif;
+    /* color: aliceblue; */
+    color: #fff;
+}
+
+.nameCharacterRR {
+    width: 100%;
+    flex-grow: 1;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    /* color: aliceblue; */
+    color: #9ee1b0;
+}
+
+.nameCharacterC {
+    width: 100%;
+    flex-grow: 1;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: #00C853;
+}
+
+.nameCharacterLrn {
+    width: 100%;
+    flex-grow: 1;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: cyan;
+}
+
+.nameCharacterPF {
+    width: 100%;
+    flex-grow: 1;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: yellow;
+}
+
+.nameCharacterLG {
+    width: 100%;
+    flex-grow: 1;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(61, 12, 107);
+}
+
+.nameCharacterAUR {
+    width: 100%;
+    flex-grow: 1;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: green;
 }
 
 .firstGroup {
@@ -55,8 +132,10 @@
 }
 
 .explain {
-    text-align: start;
+    text-align: center;
     font-family: 'Nunito', sans-serif;
+    color: rgb(177, 174, 174);
+    margin: 0;
 }
 
 .iconsSubImg {
@@ -64,8 +143,41 @@
     height: auto;
 }
 
+.preview {
+    display: grid;
+    place-content: center;
+}
+
+
 .iconSubGroup:hover {
     scale: 1.11;
+}
+
+.closeBtn {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Nunito', sans-serif;
+}
+
+.subBtnClose p {
+    color: #fff
+}
+
+/* .subBtnClose:hover {
+    background: aqua;
+} */
+
+.iconX {
+    width: 80%;
+    height: auto;
+    cursor: pointer;
+}
+
+.imgClosebtn {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 10px;
 }
 
 @media screen and (max-width: 800px) {

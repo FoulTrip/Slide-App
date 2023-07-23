@@ -5,7 +5,13 @@
     flex-wrap: wrap;
     gap: 10px;
     font-family: 'Nunito', sans-serif;
+    color:rgb(177, 174, 174);
 }
+
+.titlePrincipal {
+    color:rgb(177, 174, 174);
+}
+
 
 .imgSubBox {
     flex-basis: 400px;
@@ -27,6 +33,7 @@
     display: grid;
     place-content: center;
     text-align: center;
+    color:rgb(177, 174, 174);
 }
 
 .textSubBox h3 {

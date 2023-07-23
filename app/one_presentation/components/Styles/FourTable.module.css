@@ -1,5 +1,6 @@
 .title {
     font-family: 'Nunito', sans-serif;
+
 }
 
 .subBox {
@@ -28,6 +29,7 @@
     place-content: center;
     text-align: center;
     font-family: 'Nunito', sans-serif;
+    color:rgb(177, 174, 174);
 }
 
 .subBox_2 {
