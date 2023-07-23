@@ -7,11 +7,6 @@ import iconRepository from "../assets/iconRepository.png";
 import iconAUR from "../assets/iconNucleo.png";
 import Image from "next/image";
 import { useState } from "react";
-import FirstElement from "./subComponents/FirstElement";
-import SecondElement from "./subComponents/SecondElement";
-import ThreeElement from "./subComponents/ThreeElement";
-import FourElement from "./subComponents/FourElement";
-import FiveElement from "./subComponents/FiveElement";
 import iconX from "../assets/iconX.svg";
 
 function ThreeTable() {
