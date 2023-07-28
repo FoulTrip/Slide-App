@@ -15,6 +15,7 @@ import ThreeTable from "./components/ThreeTable";
 import FourTable from "./components/FourTable";
 import FiveTable from "./components/FiveTable";
 import SixTable from "./components/SixTable";
+import Head from "next/head";
 
 function PageFirstPresentation() {
   const [index, setIndex] = useState(0);
@@ -59,6 +60,9 @@ function PageFirstPresentation() {
 
   return (
     <>
+    <Head>
+      <title>Arch Linux</title>
+    </Head>
       <div className={styles.boxPrincipal}>
         <div className={styles.PrincipalModel}>
           <div className={styles.subPrincipalModel}>{table[index]}</div>
