@@ -12,11 +12,12 @@ function FiveTable() {
         <div className={styles.explain}>
           <h3 className={styles.title}>Installation complications</h3>
           <p>
-            The installation of Arch Linux is known to be a manual and detailed
-            process compared to other more process compared to other more
-            beginner-friendly distributions. beginner-friendly distributions.
-            New users may find the installation installation challenging if they
-            are unfamiliar with the manual setup process. manual.
+            Arch Linux relies on the command line to perform
+            configurations and tasks. This means that users must be comfortable
+            with the terminal and have basic command knowledge to install and
+            maintain the system. For those who are used to graphical interfaces
+            and prefer a more mouse-oriented experience, this can be a
+            challenge.
           </p>
         </div>
       </div>

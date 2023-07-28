@@ -10,11 +10,12 @@ function FourTable() {
         <div className={styles.explain}>
           <h3 className={styles.title}>Installation complications</h3>
           <p>
-            The installation of Arch Linux is known to be a manual and detailed
-            process compared to other more process compared to other more
-            beginner-friendly distributions. beginner-friendly distributions.
-            New users may find the installation installation challenging if they
-            are unfamiliar with the manual setup process. manual.
+            Unlike many other Linux distributions that offer graphical
+            installers that guide users through the entire process, Arch Linux
+            uses a more minimalist installer that requires users to do most of
+            the work manually. This includes partitioning the disk, configuring
+            the network, installing and configuring the boot loader, and
+            selecting packages to build the base system.
           </p>
         </div>
         <div className={styles.imgBox}>
