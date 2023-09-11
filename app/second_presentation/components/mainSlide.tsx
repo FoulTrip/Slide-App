@@ -7,13 +7,9 @@ import SecondSlide from "../slides/secondSlide";
 import CountIndex from "./countIndex";
 import styles from '../styles/mainSlide.module.css'
 
-interface componentProps {
-  index: number;
-}
-
 function MainSlide() {
   const { index } = useIndexContext();
-  const slides = [<FirstSlide />, <SecondSlide />];
+  const slides = [<FirstSlide key="first" />, <SecondSlide key="second" />];
   return (
     <>
       <div className={styles.mainSlide}>
