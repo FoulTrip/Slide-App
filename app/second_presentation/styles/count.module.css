@@ -1,0 +1,31 @@
+.countBox {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 10px;
+    top: 800px;
+    left: 50px;
+    background: #242324;
+    border-radius: 6px;
+    border: 1px solid #fff;
+}
+
+.opcBtn {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    cursor: pointer;
+}
+
+.countBox:hover {
+    background: #d3b2b2;
+}
+
+.iconBtn:hover {
+    scale: 1.02;
+}
+
+.voidMenu {
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+}

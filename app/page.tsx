@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import iconArrowRight from "@/assets/arrow-right.svg";
 import iconArch from "@/assets/miniaturaArch.png";
+import iconRPI from "@/assets/iconRPI.webp";
 import iconWork from "@/assets/iconDiapositivas.png";
 import iconGithub from "@/assets/iconGithub.svg";
 import iconWeb from "@/assets/iconGlobe.svg";
@@ -66,16 +67,16 @@ export default function Home() {
           </Link>
         </div>
 
-        {/* <div className={styles.card}>
+        <div className={styles.card}>
           <div className={styles.iconcard}>
             <Image
               className={styles.iconSubCard}
-              src={iconArch}
+              src={iconRPI}
               alt="iconArch"
             />
           </div>
-          <p>Arch Linux</p>
-          <Link href="/one_presentation" className={styles.linkPresentation}>
+          <p>Raspberry Pi</p>
+          <Link href="/second_presentation" className={styles.linkPresentation}>
             <p>Leer</p>
             <div className={styles.subImgLink}>
               <Image
@@ -85,7 +86,7 @@ export default function Home() {
               />
             </div>
           </Link>
-        </div> */}
+        </div>
       </div>
     </>
   );

@@ -1,0 +1,76 @@
+.boxSlide {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.logoName {
+    display: grid;
+    place-content: center;
+    flex-basis: 400px;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.subLogoName {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.iconRPI {
+    width: 30%;
+    height: auto;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+}
+
+.textLogo {
+    display: grid;
+    place-content: center;
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 100;
+}
+
+.creatorInfo {
+    flex-basis: 400px;
+    flex-grow: 1;
+    display: grid;
+    place-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.subCreatorInfo {
+    background: #d8d8d8;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    border-radius: 1em;
+}
+
+.creator {
+    width: 15%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.descriptionAuth {
+    display: grid;
+    place-content: center;
+}
+
+.subDescription p {
+    text-align: center;
+    margin: 0;
+}
+
+.nameAuth {
+    font-size: 20px;
+}
+
+.cargo {
+    font-size: 15px;
+}

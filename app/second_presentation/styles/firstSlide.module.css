@@ -1,0 +1,50 @@
+.boxSlide {
+    min-height: 100vh;
+    background: #242324;
+    display: grid;
+    place-content: center;
+}
+
+.subBoxSlide {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.imgLogo {
+    flex-basis: 400px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.iconRust {
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+}
+
+.textLogo {
+    flex-basis: 400px;
+    flex-grow: 1;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+.nameLogo {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin: 0;
+    color: whitesmoke;
+}
+
+.slogan {
+    margin: 0;
+    color:  #bed9ff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 100;
+}
