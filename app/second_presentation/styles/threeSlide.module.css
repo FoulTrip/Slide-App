@@ -1,0 +1,65 @@
+.Box {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+
+.subBox {
+    display: grid;
+    place-content: center;
+    margin-top: 3%;
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+.detailSpecific {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.titleSpec {
+    text-align: center;
+}
+
+.specific {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.imgCPU {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.iconCPU {
+    width: 100%;
+    height: auto;
+}
+
+.specific p {
+    margin: 0;
+    display: grid;
+    place-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 100;
+}
+
+.exampleFinal {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 3em;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.iconExample {
+    width: 40%;
+    height: auto;
+    border-radius: 1em;
+}

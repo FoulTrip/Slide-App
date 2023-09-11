@@ -5,6 +5,7 @@
     margin-left: 5%;
 }
 
+
 .logoName {
     display: grid;
     place-content: center;
@@ -40,6 +41,7 @@
     display: grid;
     place-content: center;
     font-family: 'Nunito Sans', sans-serif;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
 }
 
 .subCreatorInfo {
@@ -47,12 +49,34 @@
     padding: 10px;
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    gap: 10px;
     border-radius: 1em;
 }
 
+.boxOne {
+    flex-basis: 400px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.boxTwo {
+    flex-basis: 400px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.boxTwo p {
+    display: grid;
+    place-content: center;
+    font-weight: 100;
+}
+
 .creator {
-    width: 15%;
+    width: 16vh;
     height: auto;
     border-radius: 50%;
 }
@@ -73,4 +97,103 @@
 
 .cargo {
     font-size: 15px;
+    font-weight: 100;
+}
+
+.explainTopic {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8em;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.titleTopic {
+    width: 100%;
+    margin-bottom: 3em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.titleTopic p {
+    padding: 10px 15px 10px 15px;
+    background: #d8d8d8;
+    font-size: 15px;
+    border-radius: 1em;
+    font-weight: 100;
+}
+
+.modelRPI {
+    flex-basis: 400px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.textExplain {
+    flex-basis: 400px;
+    flex-grow: 1;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    font-weight: 200;
+}
+
+.dispRPI {
+    width: 80%;
+    height: auto;
+}
+
+.iconModelPlaca {
+    width: 15%;
+    height: auto;
+}
+
+.details {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.imgDetail {
+    display: grid;
+    place-content: center;
+}
+
+.iconDetail {
+    width: 90%;
+    height: auto;
+}
+
+.subDetails {
+    padding: 10px 10px 10px 10px;
+}
+
+.titleDetail {
+    margin: 0;
+}
+
+.subDetails:hover {
+    background: #d8d8d8;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .creatorInfo {
+        margin-top: 2em;
+    }
+
+    .subCreatorInfo {
+        flex-wrap: wrap;
+    }
+
+    .textExplain {
+        margin-top: 2em;
+    }
 }

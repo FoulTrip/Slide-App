@@ -1,8 +1,11 @@
 import { useEffect, useState } from "react";
 import styles from "../styles/count.module.css";
 import Image from "next/image";
+import Link from "next/link";
 import arrowLeft from "@/assets/arrow-left-circle.svg";
 import arrowRight from "@/assets/arrow-right-circle.svg";
+import iconHome from "@/assets/iconHome.svg"
+import iconReset from "@/assets/iconRefresh.svg"
 import { useIndexContext } from "../context/IndexGlobal";
 
 function CountIndex() {
@@ -12,6 +15,10 @@ function CountIndex() {
   const handleIndexNext = () => {
     setIndex(index + 1);
   };
+
+  const handleReset = () => {
+    setIndex(0);
+  }
 
   const handleIndexPrev = () => {
     setIndex(index - 1);
@@ -56,11 +63,26 @@ function CountIndex() {
             <div className={styles.opcBtn}>
               <Image
                 className={styles.iconBtn}
+                onClick={handleIndexPrev}
+                src={iconReset}
+                alt="arrowLeft"
+              />
+            </div>
+            <div className={styles.opcBtn}>
+              <Image
+                className={styles.iconBtn}
                 onClick={handleIndexNext}
                 src={arrowRight}
                 alt="arrowRight"
               />
             </div>
+            <Link href="/" className={styles.opcBtn}>
+              <Image
+                className={styles.iconBtn}
+                src={iconHome}
+                alt="arrowRight"
+              />
+            </Link>
           </>
         ) : (
           <>
