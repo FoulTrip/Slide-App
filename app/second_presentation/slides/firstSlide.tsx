@@ -1,10 +1,8 @@
-"use client"
-
-import React from "react";
 import styles from "../styles/firstSlide.module.css";
 import Image from "next/image";
 import logoRPI from "@/assets/iconRPI.webp";
 import Typewritter from "typewriter-effect";
+import FullScreen from "../components/fullScreen";
 
 function FirstSlide() {
   return (
@@ -20,9 +18,7 @@ function FirstSlide() {
               <Typewritter
                 onInit={(typewriter) => {
                   typewriter
-                    .typeString(
-                      "Computing for everybody"
-                    )
+                    .typeString("Computing for everybody")
                     // .pauseFor(1500)
                     .changeDelay(10)
                     .start();
@@ -30,6 +26,7 @@ function FirstSlide() {
               />
             </p>
           </div>
+          <FullScreen />
         </div>
       </div>
     </>

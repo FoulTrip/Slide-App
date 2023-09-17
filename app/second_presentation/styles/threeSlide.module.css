@@ -51,15 +51,29 @@
 
 .exampleFinal {
     display: flex;
+    flex-direction: row;
+    gap: 10px;
     justify-content: center;
     justify-items: center;
     margin-top: 3em;
     width: 90%;
     margin-left: 5%;
+    justify-content: space-between;
 }
 
-.iconExample {
-    width: 40%;
+.boxImage {
+    display: grid;
+    place-content: center;
+}
+
+.iconExample1 {
+    width: 80%;
+    height: auto;
+    border-radius: 1em;
+}
+
+.iconExample2 {
+    width: 100%;
     height: auto;
     border-radius: 1em;
 }

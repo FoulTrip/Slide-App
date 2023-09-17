@@ -1,0 +1,7 @@
+.fullScreen {
+    position: absolute;
+    top: 30px; /* Ajusta la distancia desde la parte superior según tus preferencias */
+    right: 50px; /* Ajusta la distancia desde la derecha según tus preferencias */
+    z-index: 999; /* Asegura que esté en la parte superior */
+    cursor: pointer;
+}

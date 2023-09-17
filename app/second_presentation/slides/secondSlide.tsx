@@ -4,12 +4,13 @@ import logoRPI from "@/assets/iconRPI.webp";
 import authRPI from "@/assets/RPICReator.jpg";
 import dispRPI from "@/assets/dispositivoRPI.png";
 
-import iconAffro from "@/assets/dollar-sign.svg"
-import iconComppac from "@/assets/codesandbox.svg"
-import iconVersat from "@/assets/move.svg"
-import iconCommunity from "@/assets/users.svg"
-import iconGPI from "@/assets/sliders.svg"
-import iconEnergy from "@/assets/battery-charging.svg"
+import iconAffro from "@/assets/dollar-sign.svg";
+import iconComppac from "@/assets/codesandbox.svg";
+import iconVersat from "@/assets/move.svg";
+import iconCommunity from "@/assets/users.svg";
+import iconGPI from "@/assets/sliders.svg";
+import iconEnergy from "@/assets/battery-charging.svg";
+import FullScreen from "../components/fullScreen";
 
 function SecondSlide() {
   return (
@@ -44,57 +45,78 @@ function SecondSlide() {
       </div>
 
       <div className={styles.explainTopic}>
-        {/* <div className={styles.titleTopic}>
-          <p>What's Raspberry Pi?</p>
-        </div> */}
         <div className={styles.modelRPI}>
           <Image className={styles.dispRPI} src={dispRPI} alt="disRPI" />
         </div>
         <div className={styles.textExplain}>
           <div className={styles.details}>
+            <p className={styles.characTitle}>Characteristics</p>
 
             <div className={styles.subDetails}>
               <div className={styles.imgDetail}>
-                <Image className={styles.iconDetail} src={iconAffro} alt="Affordabilit" />
+                <Image
+                  className={styles.iconDetail}
+                  src={iconAffro}
+                  alt="Affordabilit"
+                />
               </div>
               <p className={styles.titleDetail}>Affordability</p>
             </div>
 
             <div className={styles.subDetails}>
               <div className={styles.imgDetail}>
-                <Image className={styles.iconDetail} src={iconComppac} alt="Affordabilit" />
+                <Image
+                  className={styles.iconDetail}
+                  src={iconComppac}
+                  alt="Affordabilit"
+                />
               </div>
               <p className={styles.titleDetail}>Compact</p>
             </div>
 
             <div className={styles.subDetails}>
               <div className={styles.imgDetail}>
-                <Image className={styles.iconDetail} src={iconVersat} alt="Affordabilit" />
+                <Image
+                  className={styles.iconDetail}
+                  src={iconVersat}
+                  alt="Affordabilit"
+                />
               </div>
               <p className={styles.titleDetail}>Versatility</p>
             </div>
 
             <div className={styles.subDetails}>
               <div className={styles.imgDetail}>
-                <Image className={styles.iconDetail} src={iconCommunity} alt="Affordabilit" />
+                <Image
+                  className={styles.iconDetail}
+                  src={iconCommunity}
+                  alt="Affordabilit"
+                />
               </div>
               <p className={styles.titleDetail}>Community</p>
-            </div>  
+            </div>
 
             <div className={styles.subDetails}>
               <div className={styles.imgDetail}>
-                <Image className={styles.iconDetail} src={iconGPI} alt="Affordabilit" />
+                <Image
+                  className={styles.iconDetail}
+                  src={iconGPI}
+                  alt="Affordabilit"
+                />
               </div>
               <p className={styles.titleDetail}>Compatibility</p>
             </div>
 
             <div className={styles.subDetails}>
               <div className={styles.imgDetail}>
-                <Image className={styles.iconDetail} src={iconEnergy} alt="Affordabilit" />
+                <Image
+                  className={styles.iconDetail}
+                  src={iconEnergy}
+                  alt="Affordabilit"
+                />
               </div>
               <p className={styles.titleDetail}>Energy</p>
             </div>
-
           </div>
           <p>
             Raspberry Pi is a low-cost, credit card-sized minicomputer used to
@@ -104,6 +126,7 @@ function SecondSlide() {
           </p>
         </div>
       </div>
+      <FullScreen />
     </>
   );
 }

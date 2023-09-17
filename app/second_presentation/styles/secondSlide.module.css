@@ -184,6 +184,19 @@
     cursor: pointer;
 }
 
+.characTitle {
+    width: 100%;
+    text-align: center;
+}
+
+.fullScreen {
+    position: absolute;
+    top: 20px; /* Ajusta la distancia desde la parte superior según tus preferencias */
+    right: 20px; /* Ajusta la distancia desde la derecha según tus preferencias */
+    z-index: 999; /* Asegura que esté en la parte superior */
+    cursor: pointer;
+}
+
 @media screen and (max-width: 900px) {
     .creatorInfo {
         margin-top: 2em;

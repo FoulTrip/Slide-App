@@ -63,7 +63,7 @@ function CountIndex() {
             <div className={styles.opcBtn}>
               <Image
                 className={styles.iconBtn}
-                onClick={handleIndexPrev}
+                onClick={handleReset}
                 src={iconReset}
                 alt="arrowLeft"
               />
