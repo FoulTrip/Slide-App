@@ -1,5 +1,3 @@
-"use client"
-
 import { CountIndexProvider } from "./context/IndexGlobal";
 import MainSlide from "./components/mainSlide";
 import type { Metadata } from "next";
